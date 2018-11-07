@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+	</head>
+	<body>
+      <form action="demo-form.php">
+		<table border="1" style="border-collapse: collapse;">
+			<caption>高考志愿表</caption>
+			<tr>
+				<td width="80"  height="50">姓名</td>
+				<td width="150"  height="50">
+					<input type="text" name="yourname">
+				</td>
+				<td width="80"  height="50">年龄</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                         <input type="number" name="quantity" min="1" max="110">
+                    </form>
+				</td>
+				<td width="80"  height="50">出生日期</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                         <input type="date" name="bday">
+                    </form>
+				</td>
+				<td rowspan="3" colspan="2"> 
+					<img src="img/1.jpg" alt="personal face" width="300" height="300"</td>
+			</tr>
+			<tr>
+				<td width="80" height="50">性别</td>
+				<td width="150" height="50">
+					<form action="demo-form.php">
+                          <input type="radio" name="gender" value="女"> 女<br>
+                          <input type="radio" name="gender" value="男"> 男<br>
+                    </form>
+				</td>
+				<td width="80"  height="50">总成绩</td>
+				<td width="150"  height="50">
+	                <form action="demo-form.php">
+                       <input type="number" name="goal"><br>
+                    </form>
+				</td>
+				<td width="80"  height="50">毕业学校</td>
+				<td width="150"  height="50">
+					<input type="text" id="show">
+				</td>
+				
+			</tr>
+			<tr height="50">
+				<td width="80"  height="50">Email</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                          <input type="email" name="usremail">
+                    </form>
+				</td>
+				<td width="80"  height="50">联系方式</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                       <input type="tel" name="usrtel"><br>
+                    </form>
+				</td>
+				<td width="80"  height="50">所在城市</td>
+				<td width="150"  height="50">
+					<select>
+                         <option value ="上海">上海</option>
+                         <option value ="北京">北京</option>
+                         <option value ="广州">广州</option>
+                         <option value ="深圳">深圳</option>
+                   </select> 
+				</td>
+				
+			</tr>
+			<tr>
+				<td width="80"  height="50">语文</td>
+				<td width="150"  height="50">
+				    <form action="demo-form.php">
+                       <input type="number" name="goal"><br>
+                    </form>
+				</td>
+				<td width="80"  height="50">数学</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                       <input type="number" name="goal"><br>
+                    </form>
+				</td>
+				<td width="80"  height="50">英语</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                       <input type="number" name="goal"><br>
+                    </form>
+				</td>
+				<td width="80"  height="50">综合</td>
+				<td width="150"  height="50">
+					<form action="demo-form.php">
+                       <input type="number" name="goal"><br>
+                    </form>
+				</td>
+			</tr>
+			<tr height="50">
+				<td>兴趣爱好</td>
+				<td colspan="8">
+					<input type="text" size="120">
+				</td>
+			</tr>
+			<tr height="50">
+				<td>联络地址</td>
+				<td colspan="8">
+					<input type="text" size="120">
+				</td>
+			</tr>
+			<tr height="50">
+				<td>是否精通以下语言</td>
+				<td colspan="8" align="middle">
+					<input type="checkbox">英语
+					&thinsp; &thinsp; &thinsp; 
+					<input type="checkbox">俄语
+					&thinsp; &thinsp; &thinsp; 
+					<input type="checkbox">法语
+					&thinsp; &thinsp; &thinsp; 
+					<input type="checkbox">日语
+					&thinsp; &thinsp; &thinsp; 
+					<input type="checkbox">韩语
+					&thinsp; &thinsp; &thinsp; 
+					<input type="checkbox">泰语
+				</td>
+			</tr>
+			<tr>
+				<td colspan="9" align="middle">
+					提前批
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" height="160" align="center">
+					第一志愿
+				</td>
+				<td colspan="5">
+					<select >
+						 <option value ="A大学">A大学</option>
+						 <option value ="B大学">B大学</option>
+						 <option value ="C大学">C大学</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<form action="demo-form.php">
+                          <input type="radio" name="major" value="服从调配"> 服从调配
+                          <input type="radio" name="major" value="不服从调配"> 不服从调配
+                    </form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">
+				     专业1：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业2：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业3：<input type="text" name="major">
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" height="160" align="center">
+					第二志愿
+				</td>
+				<td colspan="5">
+					<select >
+						 <option value ="A大学">A大学</option>
+						 <option value ="B大学">B大学</option>
+						 <option value ="C大学">C大学</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<form action="demo-form.php">
+                          <input type="radio" name="major" value="服从调配"> 服从调配
+                          <input type="radio" name="major" value="不服从调配"> 不服从调配
+                    </form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">
+				     专业1：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业2：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业3：<input type="text" name="major">
+				</td>	
+			</tr>
+						<tr>
+				<td colspan="9" align="middle">
+					第一批
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" height="160" align="center">
+					第一志愿
+				</td>
+				<td colspan="5">
+					<select >
+						 <option value ="A大学">A大学</option>
+						 <option value ="B大学">B大学</option>
+						 <option value ="C大学">C大学</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<form action="demo-form.php">
+                          <input type="radio" name="major" value="服从调配"> 服从调配
+                          <input type="radio" name="major" value="不服从调配"> 不服从调配
+                    </form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">
+				     专业1：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业2：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业3：<input type="text" name="major">
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" height="160" align="center">
+					第二志愿
+				</td>
+				<td colspan="5">
+					<select >
+						 <option value ="A大学">A大学</option>
+						 <option value ="B大学">B大学</option>
+						 <option value ="C大学">C大学</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<form action="demo-form.php">
+                          <input type="radio" name="major" value="服从调配"> 服从调配
+                          <input type="radio" name="major" value="不服从调配"> 不服从调配
+                    </form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">
+				     专业1：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业2：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业3：<input type="text" name="major">
+				</td>	
+			</tr>
+						<tr>
+				<td colspan="9" align="middle">
+					第二批
+				</td>
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" height="160" align="center">
+					第一志愿
+				</td>
+				<td colspan="5">
+					<select >
+						 <option value ="A大学">A大学</option>
+						 <option value ="B大学">B大学</option>
+						 <option value ="C大学">C大学</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<form action="demo-form.php">
+                          <input type="radio" name="major" value="服从调配"> 服从调配
+                          <input type="radio" name="major" value="不服从调配"> 不服从调配
+                    </form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">
+				     专业1：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业2：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业3：<input type="text" name="major">
+				</td>	
+			</tr>
+			<tr>
+				<td colspan="2" rowspan="2" height="160" align="center">
+					第二志愿
+				</td>
+				<td colspan="5">
+					<select >
+						 <option value ="A大学">A大学</option>
+						 <option value ="B大学">B大学</option>
+						 <option value ="C大学">C大学</option>
+					</select>
+				</td>
+				<td colspan="2">
+					<form action="demo-form.php">
+                          <input type="radio" name="major" value="服从调配"> 服从调配
+                          <input type="radio" name="major" value="不服从调配"> 不服从调配
+                    </form>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="7">
+				     专业1：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业2：<input type="text" name="major">
+				     &thinsp; &thinsp; &thinsp; 
+				     专业3：<input type="text" name="major">
+				</td>	
+			</tr>
+		</table>
+     <input type="reset" value="重置">
+     <input type="submit" value="提交">
+  </form>
+
+</html>
